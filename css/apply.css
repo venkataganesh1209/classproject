@@ -1,0 +1,47 @@
+/* application form */
+#application {
+  padding: 1.5em;
+  margin: 2em auto;
+  width: 70vw;
+  background: #f14924;
+  color: white;
+  border-radius: 30px;
+}
+
+h3 {
+  text-align: center;
+  margin: 1.5em;
+}
+
+label,
+input,
+textarea,
+select {
+  display: block;
+  margin: 0.5em auto;
+  padding: 1em;
+  width: 80%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none !important;
+  border: 3px solid black;
+}
+
+textarea {
+  height: 250px;
+}
+
+#submit {
+  margin: 2.5em auto;
+  width: 25%;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: rgb(202, 202, 202);
+}

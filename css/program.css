@@ -1,0 +1,76 @@
+/*description and put your degree to work sections*/
+#description,
+#degreeToWork {
+  margin: 3em;
+  text-align: center;
+}
+
+#description p,
+#degreeToWork p {
+  margin: 1em auto;
+  width: 80%;
+}
+
+/*points of pride section */
+#pointsOfPride {
+  display: flex;
+  align-items: center;
+}
+
+#pointsOfPride img {
+  width: 60%;
+  height: auto;
+  margin: 1em;
+}
+
+#points {
+  padding: 3em;
+  background: #f14924;
+  color: white;
+  margin: 0.5em;
+}
+
+#points h3 {
+  text-align: center;
+  margin: 0.7em;
+}
+
+#points li {
+  margin: 1em;
+}
+
+/* table */
+table {
+  margin: 2.5em auto;
+}
+
+caption {
+  margin: 1em;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 1em;
+}
+
+/* more info section */
+#moreInfo {
+  width: 60%;
+  background: #f14924;
+  color: white;
+  padding: 1em;
+  margin: 2em auto;
+  border-radius: 30px;
+}
+
+#moreInfo h4 {
+  text-align: center;
+}
+
+#moreInfo pre {
+  font-family: "Times New Roman", serif;
+  margin: 1em;
+}

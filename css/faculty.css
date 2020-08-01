@@ -1,0 +1,54 @@
+h3 {
+  margin: 2em;
+  text-align: center;
+}
+
+/* faculty section */
+#currentFaculty,
+#retired {
+  display: grid;
+  width: 70%;
+  margin: 2em auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+.facultyItem {
+  background: #f14924;
+  border-radius: 30px;
+  padding: 1em;
+  color: white;
+}
+
+.facultyItem img {
+  border-radius: 5%;
+  display: block;
+  margin: 1em auto;
+}
+
+.facultyText,
+.retiredText {
+  text-align: center;
+}
+
+.facultyText ul,
+.retiredText ul {
+  list-style-type: none;
+  margin: 0.5em;
+}
+
+.facultyText ul li,
+.retiredText ul li {
+  padding: 0.3em;
+}
+
+a,
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  color: rgb(29, 29, 29);
+}

@@ -1,0 +1,76 @@
+/* two column layout */
+#content {
+  margin: 1.5em;
+}
+
+#content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  padding: 1em;
+  margin: 0 1em;
+  background: rgb(31, 31, 31);
+  width: 45%;
+  float: left;
+  color: white;
+}
+
+.column::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column h3 {
+  margin: 0.5em;
+}
+
+.column h4 {
+  margin-left: 1em;
+}
+
+.column p {
+  margin: 1em 1.5em 0 1em;
+}
+
+hr {
+  margin: 1.5em;
+  color: white;
+}
+
+/* cards */
+#cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.card {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+  border-radius: 5px;
+  padding: 1em;
+  background: #f14924;
+  color: white;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 1em;
+}
+
+.card a,
+.card a:link,
+.card a:visited {
+  display: inline-block;
+  color: black;
+  margin: 1em;
+}
+
+.card a:hover,
+.card a:active {
+  color: rgb(49, 49, 49);
+}

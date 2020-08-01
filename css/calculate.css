@@ -1,0 +1,84 @@
+h3 {
+  margin: 2em;
+  text-align: center;
+}
+
+/* global styles for both forms */
+form {
+  margin: 1.5em auto;
+  padding: 2em;
+  color: white;
+  width: 60%;
+  border-radius: 30px;
+}
+
+label,
+input {
+  display: block;
+  padding: 1em;
+  margin: 0.5em auto;
+  width: 75%;
+}
+
+input[type="submit"] {
+  width: 25%;
+  margin: 1.5em auto;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: rgb(196, 195, 195);
+}
+
+/* number of courses form */
+#numCourses {
+  background: black;
+}
+
+/* Gpa calculation form */
+form:last-of-type {
+  background: #f14924;
+}
+
+.GPAcourseData {
+  border-bottom: 2px solid white;
+  margin: 1em;
+  padding: 1em;
+}
+
+.GPAcourseData h4 {
+  margin: 0.3em;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.GPAcourseData:last-of-type {
+  border: none;
+}
+
+.GPAcourseData input:focus {
+  outline: none !important;
+  border: 2px solid black;
+}
+
+/* display GPA */
+#displayGPA {
+  margin: 2em auto;
+  padding: 2em;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 60%;
+  text-align: center;
+}
+
+#displayGPA h4 {
+  font-size: 1.3em;
+  margin: 1em;
+}
+
+#GPA {
+  color: #f14924;
+  font-size: 2em;
+}

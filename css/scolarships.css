@@ -1,0 +1,51 @@
+h3 {
+  text-align: center;
+  margin: 2em;
+}
+
+/* types section */
+#types {
+  background: black;
+  color: white;
+  width: 70%;
+  margin: 1em auto;
+  padding: 2em;
+  border-radius: 30px;
+}
+
+#types h4 {
+  text-align: center;
+  margin: 1.5em;
+}
+
+#types > ul {
+  margin: 1.5em;
+  list-style-type: none;
+}
+
+#types > ul > li {
+  margin: 2em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+.scolarshipReqs {
+  margin: 1.5em;
+}
+
+/* terms section */
+#terms {
+  width: 80%;
+  margin: 2em auto;
+  background: #f14924;
+  color: white;
+  padding: 1.5em;
+  border-radius: 30px;
+}
+
+#terms h5 {
+  text-align: center;
+  margin: 1em;
+}
